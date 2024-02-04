@@ -1,0 +1,6 @@
+version: '3'
+services:
+  microservice:
+    image: elastic_kafka_conector:latest
+    environment:
+      - NODE_ENV=production
