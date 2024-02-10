@@ -56,7 +56,7 @@ async function disconnectKafkaConsumer() {
         await consumer.disconnect();
         console.log("Disconnected from Kafka");
     } catch (error) {
-        console.error("Error disconnecting from Kafka:", error);
+        console.error("Error disconnecting, from Kafka:", error);
     }
 }
 
