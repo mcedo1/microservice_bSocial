@@ -8,9 +8,9 @@ const kafka = new Kafka({
     ssl: true,
     sasl: {
         mechanism: "plain",
-        username: "J5Z224QZSXCMZDW4",
+        username: "IWDHIGVY55D7ZDBV",
         password:
-            "w9drey8M7aJ+OSIP/5KTceRGPFPO5yQcJ6lvhiOmeyxqdVHx3rsSTiU1Fmx9fpjZ",
+            "bY3OiXzHc+EWlNhFmDn7TogDG2Un3kAiaGGsbg5ZsO+W8v2Kg58e2aU0u6C9YcFk",
     },
     createPartitioner: Partitioners.LegacyPartitioner,
 });
